@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "registryName": "NINO-BOT Public Plugin Registry",
+  "description": "فهرس إضافات موصوفة لبوت NINO-BOT",
+  "plugins": [
+    {
+      "id": "system-status",
+      "name": "حالة النظام",
+      "description": "عرض مدة تشغيل العملية والذاكرة وإصدار Node.js.",
+      "category": "system",
+      "version": "1.0.0",
+      "author": "NINO-BOT",
+      "compatibility": "NINO-BOT plugin API",
+      "requirements": [],
+      "permissions": [
+        "قراءة معلومات عملية Node.js والذاكرة"
+      ],
+      "risk": "low",
+      "approved": true,
+      "source_file": "builtin/systemStatus.js"
+    },
+    {
+      "id": "text-tools",
+      "name": "أدوات النصوص",
+      "description": "عكس النص وعدّ الحروف والكلمات.",
+      "category": "text",
+      "version": "1.0.0",
+      "author": "NINO-BOT",
+      "compatibility": "NINO-BOT plugin API",
+      "requirements": [],
+      "permissions": [
+        "معالجة النص الذي يرسله المستخدم"
+      ],
+      "risk": "low",
+      "approved": true,
+      "source_file": "builtin/textTools.js"
+    }
+  ]
+}
