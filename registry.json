@@ -17,7 +17,9 @@
       ],
       "risk": "low",
       "approved": true,
-      "source_file": "builtin/systemStatus.js"
+      "source_file": "plugins/system-status.js",
+      "source_url": "https://raw.githubusercontent.com/lounemsipra/NINO-BOT-PLUGIN-REGISTRY/main/plugins/system-status.js",
+      "sha256": "ed4701468f0ff1b2847ebd639a1ede95640456c488d2a8827ae3dc1be274dcf7"
     },
     {
       "id": "text-tools",
@@ -33,7 +35,9 @@
       ],
       "risk": "low",
       "approved": true,
-      "source_file": "builtin/textTools.js"
+      "source_file": "plugins/text-tools.js",
+      "source_url": "https://raw.githubusercontent.com/lounemsipra/NINO-BOT-PLUGIN-REGISTRY/main/plugins/text-tools.js",
+      "sha256": "05db28b8ca2979515ded27c14b2b8fa36fb33a10e6e2462b02b7b9150b694f09"
     }
   ]
 }
